@@ -1,0 +1,303 @@
+packages:
+- pypi_name: APLpy
+  maintainer: Thomas Robitaille and Eli Bressert <astropython@gmail.com>
+  name: APLpy
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/aplpy/aplpy.git
+  stable: true
+  home_url: http://aplpy.github.io
+  provisional: 2016-6-30
+  description: A Python module aimed at producing publication-quality plots of astronomical
+    imaging data in FITS format. The module uses Matplotlib, a powerful and interactive
+    plotting package. It is capable of creating output files in several graphical
+    formats, including EPS, PDF, PS, PNG, and SVG.
+- pypi_name: astro-gala
+  maintainer: Adrian Price-Whelan.
+  name: gala
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/adrn/gala
+  stable: true
+  home_url: http://gala.adrian.pw/en/latest/
+  provisional: true
+  description:
+- pypi_name: astroML
+  maintainer: Jake Vanderplas <vanderplas@astro.washington.edu>
+  name: astroML
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/astroML/astroML
+  stable: true
+  home_url: http://astroml.github.com/
+  provisional: 2015-10-1
+  description: Tools for machine learning and data mining in Astronomy.
+- pypi_name: astroplan
+  maintainer: Brett Morris
+  name: astroplan
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/astropy/astroplan
+  stable: false
+  home_url: https://astroplan.readthedocs.io/
+  provisional: false
+  description: An open source Python package to help astronomers plan observations.
+- pypi_name: astroquery
+  maintainer: Adam Ginsburg <adam.g.ginsburg@gmail.com>
+  name: astroquery
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/astropy/astroquery.git
+  stable: true
+  home_url: http://astroquery.readthedocs.io
+  provisional: false
+  description: Tools for querying online astronomical data sources.
+- pypi_name: astroscrappy
+  maintainer: Curtis McCully <cmccully@lcogt.net>
+  name: Astro-SCRAPPY
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/astropy/astroscrappy
+  stable: true
+  home_url: http://github.com/astropy/astroscrappy
+  provisional: false
+  description: A high-performance package to detect and remove cosmic rays from astronomical
+    images.
+- pypi_name: ccdproc
+  maintainer: Steven Crawford, Matt Craig and Michael Seifert <ccdproc@gmail.com>
+  name: ccdproc
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/astropy/ccdproc.git
+  stable: true
+  home_url: http://ccdproc.readthedocs.io
+  provisional: false
+  description: Package to do basic CCD data reduction.
+- pypi_name: cluster-lensing
+  maintainer: Jes Ford
+  name: cluster-lensing
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/jesford/cluster-lensing
+  stable: false
+  home_url: http://jesford.github.io/cluster-lensing
+  provisional: 2017-3-18
+  description: Galaxy cluster properties and NFW profiles (with miscentering option).
+- pypi_name: galpy
+  maintainer: Jo Bovy
+  name: galpy
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/jobovy/galpy
+  stable: true
+  home_url: http://galpy.readthedocs.io/en/latest/
+  provisional: false
+  description:
+- pypi_name: gammapy
+  maintainer: Christoph Deil <Deil.Christoph@gmail.com>
+  name: gammapy
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/gammapy/gammapy.git
+  stable: false
+  home_url: https://gammapy.readthedocs.io/
+  provisional: 2016-6-30
+  description: A high level gamma-ray astronomy data analysis package.
+- pypi_name: ginga
+  maintainer: Eric Jeschke <eric@naoj.org>
+  name: ginga
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/ejeschke/ginga
+  stable: true
+  home_url: http://ejeschke.github.com/ginga
+  provisional: 2015-2-27
+  description: A viewer for astronomical data FITS (Flexible Image Transport System)
+    files. The Ginga viewer centers around a new FITS display widget which supports
+    zooming and panning, color and intensity mapping, a choice of several automatic
+    cut levels algorithms and canvases for plotting scalable geometric forms.
+- pypi_name: glueviz
+  maintainer: Chris Beaumont and Thomas Robitaille <thomas.robitaille@gmail.com>
+  name: Glue
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/glue-viz/glue.git
+  stable: true
+  home_url: http://www.glueviz.org
+  provisional: false
+  description:
+- pypi_name: gwcs
+  maintainer: Nadia Dencheva
+  name: gwcs
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/spacetelescope/gwcs.git
+  stable: false
+  home_url: http://gwcs.readthedocs.io
+  provisional: false
+  description:
+- pypi_name: halotools
+  maintainer: Andrew Hearin <andrew.hearin@yale.edu>
+  name: Halotools
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/astropy/halotools
+  stable: true
+  home_url: https://github.com/astropy/halotools
+  provisional: false
+  description: Generate Monte Carlo realizations of mock galaxy populations using
+    cosmological simulations.
+- pypi_name: imexam
+  maintainer: Megan Sosey
+  name: imexam
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/spacetelescope/imexam
+  stable: false
+  home_url: http://imexam.readthedocs.io/imexam/index.html
+  provisional: false
+  description: A package for functionality like IRAF's imexamine.
+- pypi_name: maltpynt
+  maintainer: Matteo Bachetti <matteo@matteobachetti.it>
+  name: MaLTPyNT
+  image:
+  educational_materials_link:
+  repo_url: https://bitbucket.org/mbachett/maltpynt
+  stable: true
+  home_url: https://maltpynt.readthedocs.io
+  provisional: 2017-2-17
+  description: Quick-look timing analysis of NuSTAR data.
+- pypi_name: montage-wrapper
+  maintainer: Thomas Robitaille <thomas.robitaille@gmail.com>
+  name: montage-wrapper
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/astropy/montage-wrapper
+  stable: true
+  home_url: http://www.astropy.org/montage-wrapper/
+  provisional: false
+  description: A pure Python module that provides a Python API to the Montage Astronomical
+    Image Mosaic Engine, including both functions to access individual Montage commands,
+    and high-level functions to facilitate mosaicking and re-projecting. Python-montage
+    uses the Astropy core package for reading and writing FITS files.
+- pypi_name: naima
+  maintainer: Victor Zabalza <vzabalza@gmail.com>
+  name: naima
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/zblz/naima
+  stable: true
+  home_url: https://naima.readthedocs.io/
+  provisional: false
+  description: Derivation of non-thermal particle distributions through MCMC spectral
+    fitting.
+- pypi_name: omnifit
+  maintainer: Aleksi Suutarinen <aleksi.suutarinen@iki.fi>
+  name: omnifit
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/RiceMunk/omnifit
+  stable: true
+  home_url: https://ricemunk.github.io/omnifit/
+  provisional: 2017-10-7
+  description:
+- pypi_name: photutils
+  maintainer: Larry Bradley and Brigitta Sipocz <lbradley@stsci.edu>
+  name: photutils
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/astropy/photutils.git
+  stable: false
+  home_url: http://photutils.readthedocs.io/
+  provisional: false
+  description: Photometry and related image-processing tools.
+- pypi_name: pydl
+  maintainer: Benjamin Alan Weaver <baweaver@lbl.gov>
+  name: PyDL
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/weaverba137/pydl.git
+  stable: false
+  home_url: https://github.com/weaverba137/pydl
+  provisional: false
+  description:
+- pypi_name: pyregion
+  maintainer: Jae-Joon Lee
+  name: pyregion
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/astropy/pyregion.git
+  stable: true
+  home_url: http://pyregion.readthedocs.io
+  provisional: '2016-02-22'
+  description:
+- pypi_name: python-cpl
+  maintainer: Ole Streicher
+  name: python-cpl
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/olebole/python-cpl
+  stable: false
+  home_url: http://python-cpl.readthedocs.io
+  provisional: '2016-09-10'
+  description: Framework to process ESO pipelines for the VLT instruments.
+- pypi_name: pyvo
+  maintainer: Ray Plante
+  name: PyVO
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/pyvirtobs/pyvo.git
+  stable: false
+  home_url: http://pyvo.readthedocs.io/
+  provisional: 2016-6-30
+  description: Access to the Virtual Observatory through Python.
+- pypi_name: reproject
+  maintainer: Thomas Robitaille <thomas.robitaille@gmail.com>
+  name: reproject
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/astrofrog/reproject.git
+  stable: true
+  home_url: http://reproject.readthedocs.io
+  provisional: false
+  description:
+- pypi_name: sncosmo
+  maintainer: Kyle Barbary
+  name: sncosmo
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/sncosmo/sncosmo
+  stable: true
+  home_url: https://sncosmo.github.io
+  provisional: false
+  description:
+- pypi_name: spectral-cube
+  maintainer: Adam Ginsburg
+  name: spectral-cube
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/radio-astro-tools/spectral-cube
+  stable: true
+  home_url: http://spectral-cube.rtfd.org
+  provisional: false
+  description:
+- pypi_name: specutils
+  maintainer: Wolfgang Kerzendorf
+  name: specutils
+  image:
+  educational_materials_link:
+  repo_url: http://github.com/astropy/specutils.git
+  stable: false
+  home_url: http://specutils.readthedocs.io
+  provisional: false
+  description: Spectroscopic analysis utilities.
+- pypi_name: spherical-geometry
+  maintainer: Bernie Simon and Michael Droettboom
+  name: spherical_geometry
+  image:
+  educational_materials_link:
+  repo_url: https://github.com/spacetelescope/sphere.git
+  stable: false
+  home_url: https://spacetelescope.github.io/sphere/spherical_geometry/
+  provisional: '2015-12-26'
+  description:
