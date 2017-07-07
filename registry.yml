@@ -260,7 +260,7 @@ packages:
   stable: true
   home_url: http://reproject.readthedocs.io
   provisional: false
-  description:
+  description: Python-based astronomical image reprojection.
 - pypi_name: sncosmo
   maintainer: Kyle Barbary
   name: sncosmo
