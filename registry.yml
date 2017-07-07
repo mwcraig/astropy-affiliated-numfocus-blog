@@ -280,7 +280,7 @@ packages:
   stable: true
   home_url: http://spectral-cube.rtfd.org
   provisional: false
-  description:
+  description: Library for reading and analyzing astrophysical spectral data cubes.
 - pypi_name: specutils
   maintainer: Wolfgang Kerzendorf
   name: specutils
