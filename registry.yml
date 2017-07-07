@@ -43,7 +43,7 @@ packages:
   provisional: false
   description: An open source Python package to help astronomers plan observations.
 - pypi_name: astroquery
-  maintainer: Adam Ginsburg <adam.g.ginsburg@gmail.com>
+  maintainer: Adam Ginsburg <adam.g.ginsburg@gmail.com> and Brigitta Sipocz
   name: astroquery
   image:
   educational_materials_link:
@@ -64,7 +64,7 @@ packages:
   description: A high-performance package to detect and remove cosmic rays from astronomical
     images.
 - pypi_name: ccdproc
-  maintainer: Steven Crawford, Matt Craig and Michael Seifert <ccdproc@gmail.com>
+  maintainer: Steven Crawford, Matt Craig, and Michael Seifert <ccdproc@gmail.com>
   name: ccdproc
   image:
   educational_materials_link:
