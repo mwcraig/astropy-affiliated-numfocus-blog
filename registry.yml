@@ -43,7 +43,7 @@ packages:
   provisional: false
   description: An open source Python package to help astronomers plan observations.
 - pypi_name: astroquery
-  maintainer: Adam Ginsburg <adam.g.ginsburg@gmail.com> and Brigitta Sipocz
+  maintainer: Adam Ginsburg and Brigitta Sipocz <adam.g.ginsburg@gmail.com>
   name: astroquery
   image:
   educational_materials_link:
