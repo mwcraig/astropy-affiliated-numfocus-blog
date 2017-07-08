@@ -8,7 +8,7 @@ more fundamental tools, like [numpy](http://www.numpy.org/) or
 [scipy](https://scipy.org/)? Now that I've been using Python for a few years,
 I've come to appreciate the diversity of tools.
 
-I was reminded of this by a recent[NUMFocus blog post about doing astronomy with Python and open data](https://www.numfocus.org/blog/anyone-can-do-astronomy-with-python-and-open-data/) which outlined how to use several
+I was reminded of this by a recent [NUMFocus blog post about doing astronomy with Python and open data](https://www.numfocus.org/blog/anyone-can-do-astronomy-with-python-and-open-data/) which outlined how to use several
 fundamental packages to do image reduction and photometry. Here I'll give an
 overview of several high-level packages for doing astronomy that are
 [Astropy](http://astropy/org) *affiliated packages*; these are packages that
@@ -55,8 +55,8 @@ the IRAF tool of the same name.
 to prepare publication-quality plots of images with lots of options for
 annotating them or overlaying additional information. Finally, [montage-wrapper](http://www.astropy.org/montage-wrapper/) provides a python interface
 [to the Montage image mosaic system](http://montage.ipac.caltech.edu/)
-[(Montage itself is developed and maintained by IPAC and is not an affiliated
-[package).
+(Montage itself is developed and maintained by IPAC and is not an affiliated
+package).
 
 There are two packages for interacting with regions on the sky:
 [pyregion](http://pyregion.readthedocs.io/), which handles ds9 and ciao region
