@@ -28,10 +28,10 @@ increase.
 ## Optical/IR image processing
 
 [ccdproc](http://ccdproc.readthedocs.io/) does reduction of optical/IR image
-data and may be suitable for reducing some spectroscopic date. It
+data and may be suitable for reducing some spectroscopic data. It
 (optionally) includes cosmic ray removal with [astroscrappy](https://github.com/astropy/astroscrappy), a fast implementation of the L.A.Cosmic algorithm.
 
-More specialized, but in the same genre, is [python-cpl](http://python-cpl.readthedocs.io/), a python interface to recipes from
+More specialized, but in the same genre, is [python-cpl](http://python-cpl.readthedocs.io/), a python interface to recipes of
 the ESO data reduction pipeline.
 
 Once you've calibrated your images,
@@ -156,7 +156,7 @@ Which reminds me, there is...
 I've saved one of the best for last. No matter what your area of interest is
 in astronomy you need access to online databases, and
 [astroquery](http://astroquery.readthedocs.io/) has you covered. Simbad
-lookups? Yep. Data from a Vizier table? Can do. Open exoplanet catalog? Sure!
+lookups? Yep. Data from a Vizier table? Can do. Gaia catalog? Sure!
 ALMA? No problem. Take a look at the [gallery of examples](http://astroquery.readthedocs.io/en/latest/gallery.html).
 
 ## Installation
