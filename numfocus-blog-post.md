@@ -8,7 +8,7 @@ more fundamental tools, like [numpy](http://www.numpy.org/) or
 [scipy](https://scipy.org/)? Now that I've been using Python for a few years,
 I've come to appreciate the diversity of tools.
 
-I was reminded of this by a recent [NUMFocus blog post about doing astronomy with Python and open data](https://www.numfocus.org/blog/anyone-can-do-astronomy-with-python-and-open-data/) which outlined how to use several
+I was reminded of this by a recent [NumFOCUS blog post about doing astronomy with Python and open data](https://www.numfocus.org/blog/anyone-can-do-astronomy-with-python-and-open-data/) which outlined how to use several
 fundamental packages to do image reduction and photometry. Here I'll give an
 overview of several high-level packages for doing astronomy that are
 [Astropy](http://astropy/org) *affiliated packages*; these are packages that
@@ -29,8 +29,7 @@ increase.
 
 [ccdproc](http://ccdproc.readthedocs.io/) does reduction of optical/IR image
 data and may be suitable for reducing some spectroscopic date. It
-(optionally) includes cosmic ray removal with [astroscrappy](https://github.com/astropy/astroscrappy), a fast implementation of
-[the L.A.Cosmic algorithm.
+(optionally) includes cosmic ray removal with [astroscrappy](https://github.com/astropy/astroscrappy), a fast implementation of the L.A.Cosmic algorithm.
 
 More specialized, but in the same genre, is [python-cpl](http://python-cpl.readthedocs.io/), a python interface to recipes from
 the ESO data reduction pipeline.
@@ -80,7 +79,7 @@ detail in a [proposal for the future of spectroscopy in astropy](https://github.
 provides tools for reading and writing spectra in a variety of formats, and
 for performing common operations. A couple of packages in the early stages of
 developments (they are not affiliated packages yet) are
-[specreduce](http://specreduce.readthedocs.io/), for reducing spectra and
+[specreduce](http://specreduce.readthedocs.io/), for reducing spectra, and
 [specviz](http://specviz.readthedocs.io/) for viewing those spectra.
 
 [omnifit](https://github.com/RiceMunk/omnifit) performs spectroscopic fitting
@@ -116,10 +115,10 @@ One is [astroML](http://www.astroml.org/) which contains a variety of astronomy-
 
 Another is [sncosmo](http://sncosmo.readthedocs.io/), which does
 spectrophotometric modeling of Type Ia supernovae. This one has been extremely
-useful to an undergraduate I've been working with the summer to (finally)
+useful to an undergraduate I've been working with this summer to (finally)
 reduce the data we have on SN 2011fe.
 
-Those coming from IDL may be interest in
+Those coming from IDL may be interested in
 [pydl](http://pydl.readthedocs.io/en/latest/pydl/index.html), which contains
 Python implementations of some widely-used astronomical routines from IDL.
 
@@ -130,7 +129,7 @@ The long and short ends of the electromagnetic spectrum get some special attenti
 On the high energy side are [gammapy](http://docs.gammapy.org/), providing a
 quite complete set of tools for both simulation and analysis of gamma ray
 data. At a slightly lower energy, [maltpynt](http://maltpynt.readthedocs.io/)
-has some general-purpose tools for x-ray astronomy, but its primary purpose
+has some general-purpose tools for x-ray astronomy, but its primary purpose is
 for timing analysis of [NuSTAR](http://www.nustar.caltech.edu/) data. Finally,
 [naima](http://naima.readthedocs.io) calculates non-thermal spectra of
 relativistic particle distributions.
