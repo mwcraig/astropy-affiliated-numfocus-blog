@@ -22,7 +22,8 @@ description below, even though several really cross categories.
 
 Some good news/bad news before we start: there are almost thirty affiliated
 packages, and there are many very good astronomy-related packages that are
-*not* affiliated packages.
+*not* affiliated packages. The menu of interesting Python packages only seems to
+increase.
 
 ## Optical/IR image processing
 
