@@ -264,13 +264,18 @@ packages:
 - pypi_name: sncosmo
   maintainer: Kyle Barbary
   name: sncosmo
-  image:
+  image: https://avatars1.githubusercontent.com/u/5490746?v=3&s=500
   educational_materials_link:
   repo_url: http://github.com/sncosmo/sncosmo
   stable: true
-  home_url: https://sncosmo.github.io
+  home_url: http://sncosmo.readthedocs.io
   provisional: false
-  description:
+  description: Supernova light curve models in Python. SNCosmo synthesizes supernova
+    spectra and photometry from SN models, and has functions for fitting and sampling
+    SN model parameters given photometric light curve data. It includes built-in
+    supernova models such as the SALT2, MLCS2k2, Hsiao, Nugent, PSNID, SNANA and Whalen
+    models, a variety of built-in bandpasses and magnitude systems, and allows custom
+    models, bandpasses, and magnitude systems to be defined.
 - pypi_name: spectral-cube
   maintainer: Adam Ginsburg
   name: spectral-cube
