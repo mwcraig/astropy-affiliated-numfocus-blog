@@ -113,10 +113,11 @@ A few packages don't fit neatly into a single category.
 
 One is [astroML](http://www.astroml.org/) which contains a variety of astronomy-related machine learning tools, and even has an [extensive user's manual on Amazon](https://www.amazon.com/Statistics-Mining-Machine-Learning-Astronomy/dp/0691151687/ref=sr_1_sc_2?ie=UTF8&qid=1499479180&sr=8-2-spell&keywords=vander+plas).
 
-Another is [sncosmo](http://sncosmo.readthedocs.io/), which does
-spectrophotometric modeling of Type Ia supernovae. This one has been extremely
+Another is [sncosmo](http://sncosmo.readthedocs.io/), which makes supernova
+light curve models, including fitting photmetric data to a model. There are a
+variety of models and passbands to choose from. This one has been extremely
 useful to an undergraduate I've been working with this summer to (finally)
-reduce the data we have on SN 2011fe.
+reduce and analyze the data we have on SN 2011fe.
 
 Those coming from IDL may be interested in
 [pydl](http://pydl.readthedocs.io/en/latest/pydl/index.html), which contains
