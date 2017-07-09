@@ -149,6 +149,13 @@ with minimal effort.
 With [pyvo](http://pyvo.readthedocs.io/), everything available through the
 Virtual Observatory is available via python.
 
+The [hips](https://hips.readthedocs.io) Python package lets you fetch
+[HiPS](http://aladin.u-strasbg.fr/hips/) image tiles from astronomical data
+centers for any astronomical survey and sky region you like. It then stitches
+the tiles together and reprojects them into a sky image that you can save to
+FITS, PNG or JPEG, or analyse directly from Python.
+
+
 Which reminds me, there is...
 
 ## One more thing...
