@@ -301,11 +301,11 @@ packages:
   name: spherical_geometry
   image:
   educational_materials_link:
-  repo_url: https://github.com/spacetelescope/sphere.git
+  repo_url: https://github.com/spacetelescope/spherical_geometry.git
   stable: false
-  home_url: https://spacetelescope.github.io/sphere/spherical_geometry/
+  home_url: https://spacetelescope.github.io/spherical_geometry/spherical_geometry/
   provisional: '2015-12-26'
-  description:
+  description: Python package for handling spherical polygons that represent arbitrary regions of the sky.
 - pypi_name: hips
   maintainer: Christoph Deil and Thomas Boch
   name: hips
