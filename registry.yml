@@ -215,12 +215,15 @@ packages:
   maintainer: Benjamin Alan Weaver <baweaver@lbl.gov>
   name: PyDL
   image:
-  educational_materials_link:
+  educational_materials_link: http://pydl.readthedocs.io/en/latest/pydl/index.html
   repo_url: http://github.com/weaverba137/pydl.git
   stable: false
   home_url: https://github.com/weaverba137/pydl
   provisional: false
-  description:
+  description: Python replacements for functions that are part of the IDL
+    built-in library, or part of astronomical IDL libraries. The emphasis is
+    on reproducing results of the astronomical library functions. Only the
+    bare minimum of IDL built-in functions are implemented to support this.
 - pypi_name: pyregion
   maintainer: Jae-Joon Lee
   name: pyregion
