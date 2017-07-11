@@ -120,8 +120,11 @@ useful to an undergraduate I've been working with this summer to (finally)
 reduce and analyze the data we have on SN 2011fe.
 
 Those coming from IDL may be interested in
-[pydl](http://pydl.readthedocs.io/en/latest/pydl/index.html), which contains
-Python implementations of some widely-used astronomical routines from IDL.
+[PyDL](http://pydl.readthedocs.io/en/latest/pydl/index.html), which contains
+Python implementations of some widely-used astronomical routines from IDL,
+with an emphasis on access to
+[Sloan Digital Sky Survey (SDSS)](https://www.sdsss.org) data, and
+tools from the [IDL Astronomy User's Library](https://idlastro.gsfc.nasa.gov/), also known as the "Goddard Library".
 
 ## Spectral extremes
 
