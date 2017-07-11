@@ -104,18 +104,19 @@ packages:
   provisional: 2016-6-30
   description: A high level gamma-ray astronomy data analysis package.
 - pypi_name: ginga
-  maintainer: Eric Jeschke <eric@naoj.org>
+  maintainer: Eric Jeschke <eric@naoj.org> and Pey-Lian Lim
   name: ginga
-  image:
-  educational_materials_link:
+  image: https://ejeschke.github.io/ginga/images/Ginga_screenshot_MacOSX-1024x613.jpg
+  educational_materials_link: https://github.com/ejeschke/ginga/blob/master/ginga/examples/jupyter-notebook/ginga_ipython_demo.ipynb
   repo_url: http://github.com/ejeschke/ginga
   stable: true
-  home_url: http://ejeschke.github.com/ginga
+  home_url: https://ejeschke.github.io/ginga
   provisional: 2015-2-27
-  description: A viewer for astronomical data FITS (Flexible Image Transport System)
-    files. The Ginga viewer centers around a new FITS display widget which supports
-    zooming and panning, color and intensity mapping, a choice of several automatic
-    cut levels algorithms and canvases for plotting scalable geometric forms.
+  description: Ginga is a Python toolkit for building viewers for astronomical
+    and scientific images stored in numpy data arrays and displaying them on
+    a variety of different display platforms. The toolkit provides
+    many features for building a viewer, including a flexible plugin framework
+    that is provided as a customizable reference viewer for FITS images. 
 - pypi_name: glueviz
   maintainer: Chris Beaumont and Thomas Robitaille <thomas.robitaille@gmail.com>
   name: Glue
