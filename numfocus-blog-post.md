@@ -40,6 +40,11 @@ detection and aperture and PSF photometry. If you need to stack those images
 first, try [reproject](http://reproject.readthedocs.io/) which can align them
 for you if the images have WCS headers.
 
+| ![image of with overlays](median_no_title.png) |
+| :---------------: |
+| Reduced, reprojected, stacked image with overlay of sources detected by photutils and two catalogs from Vizier. |
+| *Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery* |
+
 You probably want to look at all of those nice images you are working with, so
 up next is...
 
