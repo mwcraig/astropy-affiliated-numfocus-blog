@@ -27,7 +27,7 @@ increase.
 
 ## Optical/IR image processing
 
-| [![processed image](median_no_title.png)](https://github.com/mwcraig/astropy-affiliated-numfocus-blog/raw/master/image_montage_smallest.gif) |
+| [![processed image](median_no_title.png)](https://raw.githubusercontent.com/mwcraig/astropy-affiliated-numfocus-blog/master/image_montage_smallest.gif) |
 | :---------------: |
 | Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.|
 | *Cick the image for an animation!* |
