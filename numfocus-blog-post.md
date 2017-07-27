@@ -27,7 +27,7 @@ increase.
 
 ## Optical/IR image processing
 
-| [![processed image](median_no_title.png)](https://raw.githubusercontent.com/mwcraig/astropy-affiliated-numfocus-blog/master/image_montage_smallest.gif) |
+| <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/kkhXDj5GzkQ?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe> |
 | :---------------: |
 | Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.|
 | *Cick the image for an animation!* |
@@ -56,7 +56,7 @@ viewer. If you use IRAF you should check out
 [imexam](http://imexam.readthedocs.io/), which duplicates the functionality of
 the IRAF tool of the same name.
 
-| [![ginga animation snapshot](ginga_notebook_preview_snap.png)](https://github.com/mwcraig/astropy-affiliated-numfocus-blog/raw/master/ginga_notebook_preview.gif) |
+| <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/BSCmhXMXwcQ?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe> |
 | :-------------: |
 | Coming soon to a notebook near you: ginga-based image viewer widget...*click image for animation!* |
 
