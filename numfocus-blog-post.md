@@ -27,10 +27,10 @@ increase.
 
 ## Optical/IR image processing
 
-| [![image of with overlays](median_no_title.png)](http://physics.mnstate.edu/craig/image_montage_small.gif) |
+| ![animation of image processing](image_montage_small_shorter.gif) |
 | :---------------: |
-| Reduced, reprojected, stacked image with overlay of sources detected by photutils and two catalogs from Vizier. |
-| *Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery -- clik on the image for an animation!* |
+| Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. |
+| *Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.* |
 
 [ccdproc](http://ccdproc.readthedocs.io/) does reduction of optical/IR image
 data and may be suitable for reducing some spectroscopic data. It
