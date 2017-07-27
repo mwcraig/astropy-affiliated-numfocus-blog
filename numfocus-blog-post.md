@@ -27,6 +27,11 @@ increase.
 
 ## Optical/IR image processing
 
+| ![image of with overlays](median_no_title.png) |
+| :---------------: |
+| Reduced, reprojected, stacked image with overlay of sources detected by photutils and two catalogs from Vizier. |
+| *Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery* |
+
 [ccdproc](http://ccdproc.readthedocs.io/) does reduction of optical/IR image
 data and may be suitable for reducing some spectroscopic data. It
 (optionally) includes cosmic ray removal with [astroscrappy](https://github.com/astropy/astroscrappy), a fast implementation of the L.A.Cosmic algorithm.
@@ -39,11 +44,6 @@ Once you've calibrated your images,
 detection and aperture and PSF photometry. If you need to stack those images
 first, try [reproject](http://reproject.readthedocs.io/) which can align them
 for you if the images have WCS headers.
-
-| ![image of with overlays](median_no_title.png) |
-| :---------------: |
-| Reduced, reprojected, stacked image with overlay of sources detected by photutils and two catalogs from Vizier. |
-| *Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery* |
 
 You probably want to look at all of those nice images you are working with, so
 up next is...
