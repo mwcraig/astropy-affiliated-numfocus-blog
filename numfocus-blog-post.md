@@ -27,7 +27,7 @@ increase.
 
 ## Optical/IR image processing
 
-| ![image of with overlays](median_no_title.png) |
+| [![image of with overlays](median_no_title.png)](http://physics.mnstate.edu/craig/image_montage_small.gif) |
 | :---------------: |
 | Reduced, reprojected, stacked image with overlay of sources detected by photutils and two catalogs from Vizier. |
 | *Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery* |
