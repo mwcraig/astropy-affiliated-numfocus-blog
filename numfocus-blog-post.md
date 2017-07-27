@@ -27,10 +27,10 @@ increase.
 
 ## Optical/IR image processing
 
-| ![animation of image processing](image_montage_small_shorter.gif) |
+| [![processed image](median_no_title.png)](https://github.com/mwcraig/astropy-affiliated-numfocus-blog/raw/master/image_montage_smallest.gif) |
 | :---------------: |
-| Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. |
-| *Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.* |
+| Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.|
+| *Cick the image for an animation!* |
 
 [ccdproc](http://ccdproc.readthedocs.io/) does reduction of optical/IR image
 data and may be suitable for reducing some spectroscopic data. It
@@ -56,9 +56,9 @@ viewer. If you use IRAF you should check out
 [imexam](http://imexam.readthedocs.io/), which duplicates the functionality of
 the IRAF tool of the same name.
 
-| ![ginga animation](ginga_notebook_preview.gif) |
+| [![ginga animation snapshot](ginga_notebook_preview_snap.png)](https://github.com/mwcraig/astropy-affiliated-numfocus-blog/raw/master/ginga_notebook_preview.gif) |
 | :-------------: |
-| Coming soon to a notebook near you: ginga-based image viewer widget... |
+| Coming soon to a notebook near you: ginga-based image viewer widget...*click image for animation!* |
 
 [APLpy](http://aplypy.readthedocs.io/) (pronounced "apple pie") makes it easy
 to prepare publication-quality plots of images with lots of options for
