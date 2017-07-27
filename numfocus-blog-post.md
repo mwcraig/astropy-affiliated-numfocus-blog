@@ -56,6 +56,10 @@ viewer. If you use IRAF you should check out
 [imexam](http://imexam.readthedocs.io/), which duplicates the functionality of
 the IRAF tool of the same name.
 
+| ![ginga animation](ginga_notebook_preview.png) |
+| :===============: |
+| Coming soon to a notebook near you: ginga-based image viewer widget... |
+
 [APLpy](http://aplypy.readthedocs.io/) (pronounced "apple pie") makes it easy
 to prepare publication-quality plots of images with lots of options for
 annotating them or overlaying additional information. Finally, [montage-wrapper](http://www.astropy.org/montage-wrapper/) provides a python interface
