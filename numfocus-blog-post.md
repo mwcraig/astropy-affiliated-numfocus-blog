@@ -56,8 +56,8 @@ viewer. If you use IRAF you should check out
 [imexam](http://imexam.readthedocs.io/), which duplicates the functionality of
 the IRAF tool of the same name.
 
-| ![ginga animation](ginga_notebook_preview.png) |
-| :===============: |
+| ![ginga animation](ginga_notebook_preview.gif) |
+| :-------------: |
 | Coming soon to a notebook near you: ginga-based image viewer widget... |
 
 [APLpy](http://aplypy.readthedocs.io/) (pronounced "apple pie") makes it easy
