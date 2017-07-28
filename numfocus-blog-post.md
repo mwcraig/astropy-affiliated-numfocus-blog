@@ -29,8 +29,7 @@ increase.
 
 | <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/kkhXDj5GzkQ?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe> |
 | :---------------: |
-| Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.|
-| *Cick the image for an animation!* |
+| **Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.**|
 
 [ccdproc](http://ccdproc.readthedocs.io/) does reduction of optical/IR image
 data and may be suitable for reducing some spectroscopic data. It
@@ -58,7 +57,7 @@ the IRAF tool of the same name.
 
 | <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/BSCmhXMXwcQ?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe> |
 | :-------------: |
-| Coming soon to a notebook near you: ginga-based image viewer widget...*click image for animation!* |
+| **Coming soon to a notebook near you: ginga-based image viewer widget...** |
 
 [APLpy](http://aplypy.readthedocs.io/) (pronounced "apple pie") makes it easy
 to prepare publication-quality plots of images with lots of options for
