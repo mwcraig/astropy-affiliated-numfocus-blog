@@ -1,0 +1,70 @@
+<h1 id="astropy-affiliated-packages">astropy affiliated packages</h1>
+<p>One of the things I both love and hate about Python is that there is almost always more than one way to get a job done. When I first switched to Python I found that really frustrating. Of the three (or four or five or six) astronomy packages, which one was &quot;the&quot; package to use? Or was I supposed to use the more fundamental tools, like <a href="http://www.numpy.org/">numpy</a> or <a href="https://scipy.org/">scipy</a>? Now that I've been using Python for a few years, I've come to appreciate the diversity of tools.</p>
+<p>I was reminded of this by a recent <a href="https://www.numfocus.org/blog/anyone-can-do-astronomy-with-python-and-open-data/">NumFOCUS blog post about doing astronomy with Python and open data</a> which outlined how to use several fundamental packages to do image reduction and photometry. Here I'll give an overview of several high-level packages for doing astronomy that are <a href="http://astropy/org">Astropy</a> <em>affiliated packages</em>; these are packages that follow the same coding, documentation and testing conventions as the core <a href="http://astropy.readthedocs.io">astropy package</a>. The full list of affiliated packages is on the <a href="http://www.astropy.org/affiliated/index.html">Astropy project's website</a>.</p>
+<p>I'll give a quick overview of the packages and then wrap up with some installation instructions. I've only mentioned each package once in the description below, even though several really cross categories.</p>
+<p>Some good news/bad news before we start: there are almost thirty affiliated packages, and there are many very good astronomy-related packages that are <em>not</em> affiliated packages. The menu of interesting Python packages only seems to increase.</p>
+<h2 id="opticalir-image-processing">Optical/IR image processing</h2>
+<table style="width:25%;">
+<colgroup>
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/kkhXDj5GzkQ?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>Reduced, reprojected, stacked image with overlay of sources detected by photutils (gray circles) and two catalogs from Vizier. Courtesy of ccdproc, astropscrappy, reproject, photutils, and astroquery.</strong></td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://ccdproc.readthedocs.io/">ccdproc</a> does reduction of optical/IR image data and may be suitable for reducing some spectroscopic data. It (optionally) includes cosmic ray removal with <a href="https://github.com/astropy/astroscrappy">astroscrappy</a>, a fast implementation of the L.A.Cosmic algorithm.</p>
+<p>More specialized, but in the same genre, is <a href="http://python-cpl.readthedocs.io/">python-cpl</a>, a python interface to recipes of the ESO data reduction pipeline.</p>
+<p>Once you've calibrated your images, <a href="http://photutils.readthedocs.io/">photutils</a> can be used to do source detection and aperture and PSF photometry. If you need to stack those images first, try <a href="http://reproject.readthedocs.io/">reproject</a> which can align them for you if the images have WCS headers.</p>
+<p>You probably want to look at all of those nice images you are working with, so up next is...</p>
+<h2 id="image-viewers-and-plotting-helpers">Image viewers and plotting helpers</h2>
+<p><a href="http://ginga.readthedocs.io/">ginga</a> provides by a &quot;reference&quot; viewer and the libraries for making your own image viewer or for customizing the reference viewer. If you use IRAF you should check out <a href="http://imexam.readthedocs.io/">imexam</a>, which duplicates the functionality of the IRAF tool of the same name.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/BSCmhXMXwcQ?rel=0&amp;showinfo=0?ecver=1" frameborder="0" allowfullscreen></iframe></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>Coming soon to a notebook near you: ginga-based image viewer widget...</strong></td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://aplypy.readthedocs.io/">APLpy</a> (pronounced &quot;apple pie&quot;) makes it easy to prepare publication-quality plots of images with lots of options for annotating them or overlaying additional information. Finally, <a href="http://www.astropy.org/montage-wrapper/">montage-wrapper</a> provides a python interface <a href="http://montage.ipac.caltech.edu/">to the Montage image mosaic system</a> (Montage itself is developed and maintained by IPAC and is not an affiliated package).</p>
+<p>There are two packages for interacting with regions on the sky: <a href="http://pyregion.readthedocs.io/">pyregion</a>, which handles ds9 and ciao region files and helps you overlay them on <a href="https://matplotlib.org/">matplotlib</a> images, and the more general <a href="http://regions.readthedocs.io/">regions</a>, which is still in the very early stages of development. Rounding out this category is <a href="http://spacetelescope.github.io/sphere/spherical_geometry/index.html">spherical-goemetry</a> for representing spherical polygons on the sky.</p>
+<h2 id="glue">Glue</h2>
+<p>Though it can display images, <a href="http://www.glueviz.org">glueviz</a> is really a much more general tool. It allows you create links between plots so that you can, say, select stars on part of a color-magnitude diagram and see those points highlighted on an image of the region containing those stars.</p>
+<h2 id="optical-spectroscopy">Optical spectroscopy</h2>
+<p>The <a href="http://specutils.readthedocs.io/">specutils</a> package provides tools for working with 1-D spectra; it is undergoing rapid development, described in detail in a <a href="https://github.com/astropy/astropy-APEs/pull/23">proposal for the future of spectroscopy in astropy</a>, but currently provides tools for reading and writing spectra in a variety of formats, and for performing common operations. A couple of packages in the early stages of developments (they are not affiliated packages yet) are <a href="http://specreduce.readthedocs.io/">specreduce</a>, for reducing spectra, and <a href="http://specviz.readthedocs.io/">specviz</a> for viewing those spectra.</p>
+<p><a href="https://github.com/RiceMunk/omnifit">omnifit</a> performs spectroscopic fitting of interstellar ices.</p>
+<p>Finally, <a href="http://gwcs.readthedocs.io/">gwcs</a> is being developed both to handle celestial for the James Webb Space Telescope and to provide a framework for spectral coordinates. It provides a framework for carrying out a sequence of transforms from one set of coordinates to another.</p>
+<h2 id="theory">Theory</h2>
+<p>As a former theorist myself, it is exciting to see so many theory and simulation packages. If you want to do galactic dynamics in python, <a href="http://galpy.readthedocs.io/">galpy</a> is for you; it includes a wide variety of potentials and sampling of distribution functions.</p>
+<p><a href="http://gala.adrian.pw/">asro-gala</a>, which also does gravitational dynamics, contains several general-purpose integrators and tools for carrying out several coordinate and velocity transforms in our galaxy.</p>
+<p><a href="http://jesford.github.io/cluster-lensing">cluster-lensing</a> computes galaxy cluster halo properties and weak lensing profiles.</p>
+<p>If a single cluster isn't enough for you, use <a href="http://halotools.readthedocs.io/">halotools</a> to construct your own mock universe. Given a set of dark matter halos from a simulation, it can populate those halos with galaxies and make measurements on them.</p>
+<h2 id="crossover-appeal">Crossover appeal</h2>
+<p>A few packages don't fit neatly into a single category.</p>
+<p>One is <a href="http://www.astroml.org/">astroML</a> which contains a variety of astronomy-related machine learning tools, and even has an <a href="https://www.amazon.com/Statistics-Mining-Machine-Learning-Astronomy/dp/0691151687/ref=sr_1_sc_2?ie=UTF8&amp;qid=1499479180&amp;sr=8-2-spell&amp;keywords=vander+plas">extensive user's manual on Amazon</a>.</p>
+<p>Another is <a href="http://sncosmo.readthedocs.io/">sncosmo</a>, which makes supernova light curve models, including fitting photmetric data to a model. There are a variety of models and passbands to choose from. This one has been extremely useful to an undergraduate I've been working with this summer to (finally) reduce and analyze the data we have on SN 2011fe.</p>
+<p>Those coming from IDL may be interested in <a href="http://pydl.readthedocs.io/en/latest/pydl/index.html">PyDL</a>, which contains Python implementations of some widely-used astronomical routines from IDL, with an emphasis on access to <a href="https://www.sdsss.org">Sloan Digital Sky Survey (SDSS)</a> data, and tools from the <a href="https://idlastro.gsfc.nasa.gov/">IDL Astronomy User's Library</a>, also known as the &quot;Goddard Library&quot;.</p>
+<h2 id="spectral-extremes">Spectral extremes</h2>
+<p>The long and short ends of the electromagnetic spectrum get some special attention.</p>
+<p>On the high energy side are <a href="http://docs.gammapy.org/">gammapy</a>, providing a quite complete set of tools for both simulation and analysis of gamma ray data. At a slightly lower energy, <a href="http://maltpynt.readthedocs.io/">maltpynt</a> has some general-purpose tools for x-ray astronomy, but its primary purpose is for timing analysis of <a href="http://www.nustar.caltech.edu/">NuSTAR</a> data. Finally, <a href="http://naima.readthedocs.io">naima</a> calculates non-thermal spectra of relativistic particle distributions.</p>
+<p>Radio astronomers should check out <a href="http://spectral-cube.readthedocs.io/">spectral-cube</a>, which supports working with data cubes with two spatial and one spectral dimension, including tools for masking, extracting subarrrays, and working with data sets too large for memory.</p>
+<h2 id="planning-and-data-access">Planning and data access</h2>
+<p>Need some visibility or airmass plots? Or maybe some finder charts? Take a look at <a href="http://astroplan.readthedocs.io/">astroplan</a>, which does those things with minimal effort.</p>
+<p>With <a href="http://pyvo.readthedocs.io/">pyvo</a>, everything available through the Virtual Observatory is available via python.</p>
+<p>The <a href="https://hips.readthedocs.io">hips</a> Python package lets you fetch <a href="http://aladin.u-strasbg.fr/hips/">HiPS</a> image tiles from astronomical data centers for any astronomical survey and sky region you like. It then stitches the tiles together and reprojects them into a sky image that you can save to FITS, PNG or JPEG, or analyse directly from Python.</p>
+<p>Which reminds me, there is...</p>
+<h2 id="one-more-thing...">One more thing...</h2>
+<p>I've saved one of the best for last. No matter what your area of interest is in astronomy you need access to online databases, and <a href="http://astroquery.readthedocs.io/">astroquery</a> has you covered. Simbad lookups? Yep. Data from a Vizier table? Can do. Gaia catalog? Sure! ALMA? No problem. Take a look at the <a href="http://astroquery.readthedocs.io/en/latest/gallery.html">gallery of examples</a>.</p>
+<h2 id="installation">Installation</h2>
+<p>Each of the packages above is on the <a href="https://anaconda.org/astropy/repo">astropy conda channel</a> and on PyPI, the Python package index. Navigating to the package on the conda channel will get you to specific installation instructions, but they boil down to <code>conda install -c astropy package_name</code>. With <code>pip</code> (i.e. if you do not use conda), install with <code>pip install package_name</code>. I've tried to make sure the package names above match the names on PyPI, i.e. the name given in the text is the name you use to install the package with <code>pip</code>.</p>
