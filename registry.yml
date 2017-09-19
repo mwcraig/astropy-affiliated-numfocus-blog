@@ -136,7 +136,7 @@ packages:
   stable: false
   home_url: http://gwcs.readthedocs.io
   provisional: false
-  description:
+  description: Package for managing the World Coordinate System (WCS) of astronomical data.
 - pypi_name: halotools
   maintainer: Andrew Hearin <andrew.hearin@yale.edu>
   name: Halotools
