@@ -291,7 +291,7 @@ packages:
   provisional: false
   description: Library for reading and analyzing astrophysical spectral data cubes.
 - pypi_name: specutils
-  maintainer: Wolfgang Kerzendorf
+  maintainer: Nicholas Earl, Adam Ginsburg, Steve Crawford
   name: specutils
   image:
   educational_materials_link:
@@ -299,7 +299,7 @@ packages:
   stable: false
   home_url: http://specutils.readthedocs.io
   provisional: false
-  description: Spectroscopic analysis utilities.
+  description: Affiliated package for 1D spectral operations.
 - pypi_name: spherical-geometry
   maintainer: Bernie Simon and Michael Droettboom
   name: spherical_geometry
