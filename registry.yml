@@ -246,7 +246,7 @@ packages:
   provisional: '2016-09-10'
   description: Framework to process ESO pipelines for the VLT instruments.
 - pypi_name: pyvo
-  maintainer: Ray Plante
+  maintainer: Stefan Becker <sbecker@ari.uni-heidelberg.de>
   name: PyVO
   image:
   educational_materials_link:
@@ -254,7 +254,7 @@ packages:
   stable: false
   home_url: http://pyvo.readthedocs.io/
   provisional: 2016-6-30
-  description: Access to the Virtual Observatory through Python.
+  description: Access to the Virtual Observatory through Python using IVOA Standards.
 - pypi_name: reproject
   maintainer: Thomas Robitaille <thomas.robitaille@gmail.com>
   name: reproject
